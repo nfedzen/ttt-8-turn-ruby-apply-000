@@ -1,4 +1,8 @@
+#turn method 
 
+def turn(board)
+  
+end
 
 # display board helper_method
 
