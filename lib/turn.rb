@@ -26,11 +26,13 @@ def position_taken?(board, index)
   end
 end
 
-# move helper_method
+#input_to_index helper_method
+
 def input_to_index(choice)
   index = choice.to_i - 1
 end
 
+# move helper_method
 def move(board, index, character = "X")
   board[index] = character
 end
