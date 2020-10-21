@@ -2,7 +2,8 @@
 
 def turn(board)
   puts "Please enter 1-9:"
-  gets.
+  input = gets.chomp
+  
 end
 
 # display board helper_method
